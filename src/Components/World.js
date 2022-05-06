@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Fade from "react-reveal";
+import Slide from "react-reveal";
 import WorldMap from "react-svg-worldmap";
 
 class World extends Component {
@@ -51,7 +51,7 @@ class World extends Component {
 
     return (
       <section id="resume">
-        <Fade duration={1000}>
+        <Slide left duration={1300}>
           <div className="row world align-center">
             <div className="three columns header-col">
               <h1>
@@ -62,16 +62,16 @@ class World extends Component {
               <WorldMap
                 color="#f4f6f9"
                 title=""
-                size="xxl"
+                size="lg"
                 data={data}
                 richInteraction="true"
-                backgroundColor="#e8e9ea"
+                backgroundColor="#ffffff"
                 strokeOpacity="1"
                 styleFunction={stylingFunction}
               />
             </div>
           </div>
-        </Fade>
+        </Slide>
       </section>
     );
   }

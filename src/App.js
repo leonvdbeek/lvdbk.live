@@ -6,7 +6,7 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import World from "./Components/World";
 // import Portfolio from "./Components/Portfolio";
-// import Contact from "./Components/Contact";
+import Contact from "./Components/Contact";
 
 class App extends Component {
   constructor(props) {
@@ -43,8 +43,8 @@ class App extends Component {
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
         {/* <Portfolio data={this.state.resumeData.portfolio} /> */}
-        {/* <Contact data={this.state.resumeData.main} /> */}
         <World data={this.state.resumeData.main} />
+        <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>
     );

@@ -49,11 +49,11 @@ class Header extends Component {
               </a>
             </li> */}
 
-            {/* <li>
+            <li>
               <a className="smoothscroll" href="#contact">
                 Contact
               </a>
-            </li> */}
+            </li>
           </ul>
         </nav>
 
@@ -68,8 +68,8 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                {/* <a href={process.env.PUBLIC_URL + '/#contact'} className="button btn project-btn"> */}
-                <a href="mailto:leon.vandebeek@xs4all.nl" className="button btn project-btn">
+                <a href={process.env.PUBLIC_URL + '/#contact'} className="button btn smoothscroll project-btn">
+                {/* <a href="mailto:leon.vandebeek@xs4all.nl" className="button btn project-btn"> */}
                   <i className="fa fa-comments"></i>Email me
                 </a>
                 <a href={github} className="button btn github-btn">

@@ -4,7 +4,7 @@
     "description":"I am an embedded systems engineer aiming to make the world smarter and more connected",
     "image":"fotoleon.jpg",
     "bio":"I am an open, extravert and enthousiastic person that combines a skill in working with people and collaborating with a real passion for technology. I have many interests, but my main ones would be Containerization, (Home) Automation, Infrastructure, self-hosting and embedded devices.",
-    "contactmessage":"Which to get in contact with me? Don't hesitate to shoot me a message in the contact form or through any of my socials!",
+    "contactmessage":"Wish to get in contact with me? Don't hesitate to shoot me a message in the contact form or through any of my socials!",
     "email": "leon.vandebeek@xs4all.nl",
     "phone": "xx",
     "github":"https://github.com/leonvdbeek",
@@ -56,23 +56,67 @@
         "title":"Software developer",
         "years":"March 2020 - August 2021",
         "description":"After graduating and travelling Asia for almost 4 months, returning home in the middle of the Covid-19 pandemic,I managed to get a position as a software engineer at Prodrive.I mainly worked on maintaining and building new static and dynamic C++ librariesthat we use for our Automatic Electronic Test (AET) systems.This also involved a greater detail in documentation, version control and CI/CD that I had ever experienced before.When my Master started in September of 2020, after working full-time for 5 months, I converted my contract with Prodrive to part-time 12 hours a week."
+      },
+      {
+        "company":"Eindhoven University of Technology",
+        "title":"Software Engineering Project (SEP)",
+        "years":"September 2019 – November 2019",
+        "description":"This project was my first experience with Software development on a large scale with a group of 9 persons. We worked on a system for collecting and presenting data collected from sensors in farm fields and online API’s. We used ReactJS for the front-end and a MYSQL database."
+      },
+      {
+        "company":"Central Introduction Committee (CIC)",
+        "title":"Member of the board",
+        "years":"January 2019 – December 2019",
+        "description":"As a member of the Central Introduction Committee (CIC) I have been responsible for the organization of the introduction week of 2019 of the Eindhoven University of Technology with over 2500 participants. My main responsibilities were permits, stage design/management and artist hospitality. Our busiest evening saw over 4000 unique visitors."
+      },
+      {
+        "company":"Prodrive Technologies",
+        "title":"Administrative assistant",
+        "years":"April 2017 - June 2018",
+        "description":"As the administrative assistant of Prof. Jaime Gómez Rivas and the Photonics for Energy group at DIFFER I was responsible for a variety of tasks. These ranged from creating the new website for the group to organizing visits of international visitors and ordering of new equipment for the laboratories."
+      },
+      {
+        "company":"Jumbo Supermarkt Bellestein",
+        "title":"Section leader",
+        "years":"November 2015 - May 2017",
+        "description":"After starting out as a stock clerk 4 years earlier I started taking over tasks and responsibilities of my own section leader and in November of 2015 I was promoted to section leader myself. My responsibilities included communicating with clients and suppliers, making work schedules while at the same time keeping the safety of the customers and my fellow employees into account."
       }
     ],
     "skills":[
       {
-        "name":"C / C++",
+        "name":"Javascript (Typescript)",
+        "level":"80%"
+      },
+      {
+        "name":"ReactJS",
+        "level":"80%"
+      },
+      {
+        "name":"Docker",
+        "level":"80%"
+      },
+      {
+        "name":"Arduino/ESP",
+        "level":"80%"
+      },
+      {
+        "name":"Linux (kernel)",
         "level":"70%"
       },
       {
-        "name":"Javascript (Typescript)",
-        "level":"65%"
+        "name":"C / C++",
+        "level":"70%"
       },
       {
         "name":"Python",
         "level":"60%"
       },
       {
-        "name":"Docker",
+        "name":"Matlab",
+        "level":"55%"
+      },
+      {
+        "name":"HTML/CSS",
         "level":"55%"
       }
     ]
