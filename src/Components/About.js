@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+// import profilepic from '../images/fotoleon.JPG'
 
 class About extends Component {
   render() {
     if (!this.props.data) return null;
 
     const name = this.props.data.name;
-    const profilepic = "images/" + this.props.data.image;
+    const profilepic = "/images/" + this.props.data.image;
     const bio = this.props.data.bio;
     const city = this.props.data.address.city;
     const country = this.props.data.address.country;
@@ -20,8 +21,8 @@ class About extends Component {
             <div className="three columns">
               <img
                 className="profile-pic"
-                src={profilepic}
-                alt="Léon profile pic"
+                src={`${process.env.PUBLIC_URL}`+profilepic}
+                alt="Profilepic Léon"
               />
             </div>
             <div className="nine columns main-col">

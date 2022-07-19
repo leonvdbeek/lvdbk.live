@@ -17,26 +17,46 @@ class Resume extends Component {
     const skillmessage = this.props.data.skillmessage;
     const education = this.props.data.education.map(function (education) {
       return (
-        <div key={education.school}>
-          <h3>{education.school}</h3>
-          <p className="info">
-            {education.degree} <span>&bull;</span>
-            <em className="date">{education.graduated}</em>
-          </p>
-          <p>{education.description}</p>
+        
+        <div className="row item samesizecolumns" key={education.school}>
+          <div className="three columns center profile-pic" >
+            <img
+              src={`${process.env.PUBLIC_URL+"/images/"+education.image}`}
+              alt={education.image}
+            />
+          </div>
+          <div className="nine columns">
+            <h3>{education.school}</h3>
+            <p className="info">
+              {education.degree} <span>&bull;</span>
+              <em className="date">{education.graduated}</em>
+            </p>
+            <p>{education.description}</p>
+          </div>
         </div>
       );
     });
 
     const work = this.props.data.work.map(function (work) {
       return (
-        <div key={work.company}>
-          <h3>{work.company}</h3>
-          <p className="info">
-            {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
-          </p>
-          <p>{work.description}</p>
+        <div className="row item samesizecolumns" key={work.school}>
+          <div className="three columns center profile-pic" >
+            <img
+              className=" "
+              src={`${process.env.PUBLIC_URL+"/images/"+work.image}`}
+              alt={education.image}
+            />
+          </div>
+          <div className="nine columns">
+            <div key={work.company}>
+              <h3>{work.company}</h3>
+              <p className="info">
+                {work.title}
+                <span>&bull;</span> <em className="date">{work.years}</em>
+              </p>
+              <p>{work.description}</p>
+            </div>
+          </div>
         </div>
       );
     });
@@ -63,11 +83,10 @@ class Resume extends Component {
                 <span>Education</span>
               </h1>
             </div>
+            
+            <div className="row item">
 
-            <div className="nine columns main-col">
-              <div className="row item">
-                <div className="twelve columns">{education}</div>
-              </div>
+              <div className="twelve columns">{education}</div>
             </div>
           </div>
         </Slide>
@@ -80,7 +99,7 @@ class Resume extends Component {
               </h1>
             </div>
 
-            <div className="nine columns main-col">{work}</div>
+            <div className="twelve columns ">{work}</div>
           </div>
         </Slide>
 
@@ -92,7 +111,7 @@ class Resume extends Component {
               </h1>
             </div>
 
-            <div className="nine columns main-col">
+            <div className="nine columns ">
               <p>{skillmessage}</p>
 
               <div className="bars">

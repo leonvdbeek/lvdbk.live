@@ -54,6 +54,11 @@
       height: 114px;
       margin-left: 12px;
    }
+   #resume .profile-pic {
+      width: 114px;
+      /* height: 114px; */
+      margin-left: 12px;
+   }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
 
@@ -216,6 +221,7 @@
    /* About Section
    -------------------------------------------------------------------- */
    #about .profile-pic { display: none; }
+   #resume .profile-pic { display: none; }
    #about .download .button {
       width: 100%;
       text-align: center;

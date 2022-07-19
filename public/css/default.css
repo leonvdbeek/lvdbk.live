@@ -801,7 +801,17 @@ properly.
 	margin-right: auto !important;
 	text-align: center !important;
 }
+.samesizecolumns {
+   display: flex;
+   align-items: stretch;
+}
 
+.center {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 
-
-
+.rounded {
+   border-radius: 50%;
+ }

@@ -29,15 +29,17 @@
     ]
   },
   "resume":{
-    "skillmessage":"Some of the skills I have acquired over the years:",
+    "skillmessage":"During my Masters and my previous work experiences you have seen above, I have acquired a lot of knowledge about and experience with many programming languages. I tried to visualize below:",
     "education":[
       {
+        "image":"tue.png",
         "school":"Eindhoven University of Technology",
         "degree":"Masters in Embedded Systems",
         "graduated":"Expected to graduate September 2022",
         "description":"During my two year masters I further developed my skills as an embedded systems engineer, learning about resource budgets, SoC design and much more."
       },
       {
+        "image":"tue.png",
         "school":"Eindhoven University of Technology ",
         "degree":"Bachelors in Computer Science",
         "graduated":"November 2019",
@@ -46,36 +48,48 @@
     ],
     "work":[
       {
+        "image":"imec.png",
+        "company":"IMEC Netherlands",
+        "title":"Graduation project UWB localisation",
+        "years":"March 2022 - Present",
+        "description":"During my graduation project I altered firmware of the new NXP Trimension UWB chipsets written in C++ to enable capturing of chip specific variables. I also wrote scripts to capture this data and processed it into insightful graph and statistics. My work helped IMEC understand the accuracy of the chipset in a multitude of scenarios and assisted the team in reproducing these results."
+      },{
+        "image":"signify.png",
         "company":"Signify - Philips Hue Platform team",
         "title":"Internship Device managament",
-        "years":"September 2021 - Present",
-        "description":"Currently I am working on an internship at Signify for the very well known Philips Hue smart lighting system. I am exploring the possibilities of developing our own Embedded Operating System based on the Yocto project. Features of interest to us are virtualization, connectivity and a lot of hardening and security."
+        "years":"September 2021 - January 2022",
+        "description":"During my internship at Signify I was working for the very well known Philips Hue smart lighting system. I was exploring the possibilities of developing our own Embedded Operating System based on the Yocto project. Features of interest to us are virtualization, connectivity and a lot of hardening and security."
       },
       {
+        "image":"prodrive.png",
         "company":"Prodrive Technologies",
         "title":"Software developer",
         "years":"March 2020 - August 2021",
-        "description":"After graduating and travelling Asia for almost 4 months, returning home in the middle of the Covid-19 pandemic,I managed to get a position as a software engineer at Prodrive.I mainly worked on maintaining and building new static and dynamic C++ librariesthat we use for our Automatic Electronic Test (AET) systems.This also involved a greater detail in documentation, version control and CI/CD that I had ever experienced before.When my Master started in September of 2020, after working full-time for 5 months, I converted my contract with Prodrive to part-time 12 hours a week."
+        "description":"After graduating and travelling Asia for almost 4 months, returning home in the middle of the Covid-19 pandemic, I managed to get a position as a software engineer at Prodrive.I mainly worked on maintaining and building new static and dynamic C++ librariesthat we use for our Automatic Electronic Test (AET) systems.This also involved a greater detail in documentation, version control and CI/CD that I had ever experienced before.When my Master started in September of 2020, after working full-time for 5 months, I converted my contract with Prodrive to part-time 12 hours a week."
       },
       {
+        "image":"cloudfarmer.jpg",
         "company":"Eindhoven University of Technology",
         "title":"Software Engineering Project (SEP)",
         "years":"September 2019 – November 2019",
         "description":"This project was my first experience with Software development on a large scale with a group of 9 persons. We worked on a system for collecting and presenting data collected from sensors in farm fields and online API’s. We used ReactJS for the front-end and a MYSQL database."
       },
       {
+        "image":"intro.png",
         "company":"Central Introduction Committee (CIC)",
         "title":"Member of the board",
         "years":"January 2019 – December 2019",
         "description":"As a member of the Central Introduction Committee (CIC) I have been responsible for the organization of the introduction week of 2019 of the Eindhoven University of Technology with over 2500 participants. My main responsibilities were permits, stage design/management and artist hospitality. Our busiest evening saw over 4000 unique visitors."
       },
       {
-        "company":"Prodrive Technologies",
+        "image":"differ.jpg",
+        "company":"DIFFER",
         "title":"Administrative assistant",
         "years":"April 2017 - June 2018",
         "description":"As the administrative assistant of Prof. Jaime Gómez Rivas and the Photonics for Energy group at DIFFER I was responsible for a variety of tasks. These ranged from creating the new website for the group to organizing visits of international visitors and ordering of new equipment for the laboratories."
       },
       {
+        "image":"jumbo.png",
         "company":"Jumbo Supermarkt Bellestein",
         "title":"Section leader",
         "years":"November 2015 - May 2017",

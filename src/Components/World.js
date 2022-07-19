@@ -16,16 +16,42 @@ class World extends Component {
     if (!this.props.data) return null;
 
     const data = [
-      { country: "cn", value: "- November 2022" }, // china
-      { country: "in", value: "- November 2022" }, // india
-      { country: "us", value: "- November 2022" }, // united states
-      { country: "id", value: "- November 2022" }, // indonesia
-      { country: "pk", value: "- November 2022" }, // pakistan
-      { country: "br", value: "- November 2022" }, // brazil
-      { country: "ng", value: "- November 2022" }, // nigeria
-      { country: "bd", value: "- November 2022" }, // bangladesh
-      { country: "ru", value: "- November 2022" }, // russia
-      { country: "mx", value: "- November 2022" }, // mexico
+      { country: "in", value: " " }, // india
+      { country: "nl", value: " " },
+      { country: "be", value: " " },
+      { country: "de", value: " " },
+      { country: "at", value: " " },
+      { country: "hr", value: " " },
+      { country: "cz", value: " " },
+      { country: "dk", value: " " },
+      { country: "gb", value: " " },
+      { country: "fr", value: " " },
+      { country: "hu", value: " " },
+      { country: "it", value: " " },
+      { country: "la", value: " " },
+      { country: "lu", value: " " },
+      { country: "my", value: " " },
+      { country: "ma", value: " " },
+      { country: "mm", value: " " },
+      { country: "np", value: " " },
+      { country: "no", value: " " },
+      { country: "pl", value: " " },
+      { country: "pt", value: " " },
+      { country: "sg", value: " " },
+      { country: "sk", value: " " },
+      { country: "si", value: " " },
+      { country: "es", value: " " },
+      { country: "se", value: " " },
+      { country: "ch", value: " " },
+      { country: "th", value: " " },
+      { country: "vn", value: " " },
+      { country: "", value: " " },
+      { country: "", value: " " },
+      { country: "", value: " " },
+      { country: "", value: " " },
+      { country: "", value: " " },
+      { country: "", value: " " },
+      { country: "", value: " " },
     ];
 
     
@@ -59,9 +85,11 @@ class World extends Component {
               </h1>
             </div>
             <div className="nine columns main-col">
+              <p className="text-left">Travelling is something I truely love. My parents always used to travel a lot and have been able to take me and my little brother to quite a few places. Below you find a map of all the countries I have visited so far!</p>
+              <p className="text-left">You can double click on the map to zoom in as well. 😉</p>
               <WorldMap
-                color="#f4f6f9"
                 title=""
+                color="#f4f6f9"
                 size="lg"
                 data={data}
                 richInteraction="true"
